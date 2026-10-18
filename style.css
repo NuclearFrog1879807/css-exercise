@@ -22,3 +22,15 @@ h1 {
 .paragraph3 {
     font-size: 24px;
 }
+
+.thing1 {
+    background-color: black;
+}
+
+.thing2 {
+    background-color: yellow;
+}
+
+.bothThings {
+    font-size: 28px;
+}
