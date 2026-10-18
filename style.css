@@ -5,13 +5,20 @@ h1 {
 
 .paragraph {
     background-color: pink;
+    font-family: verdana, "deja vu sans", sans-serif;
 }
 
 #div1 {
     color: blue;
+    font-size: 36px;
 }
 
 #div2 {
     background-color: lightgreen;
     font-weight: bold;
+    font-size: 24px;
+}
+
+.paragraph3 {
+    font-size: 24px;
 }
