@@ -1,2 +1,2 @@
 # css-exercise
-This is a css exercise 
+This is an introduction css exercise 
