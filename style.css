@@ -45,3 +45,9 @@ h1 {
     width: 200px;
     height: 400px;
 }
+
+.container .text{
+    text-align: center;
+    color: red;
+    background-color: yellow;
+}
