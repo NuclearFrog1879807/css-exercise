@@ -19,8 +19,12 @@ body {
 
 .confirm {
   background: green;
-  color: black;
   font-weight: bold;
+} 
+
+.button {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
 .child {
