@@ -13,11 +13,8 @@ body {
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
-
 .confirm {
+  color:white;
   background: green;
   font-weight: bold;
 } 
