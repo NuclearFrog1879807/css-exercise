@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.padded {
+    padding: 32px;
+}
+
+.exercise-one .div-one {
+    border: 3px solid blue;
+    background-color: pink;
+    margin: 12px;
+}
+
+.exercise-one .div-two {
+    border: 3px solid blueviolet;
+    background-color: darkcyan;
+}
+
+.exercise-one .div-three {
+    border: 3px solid brown;
+    background-color: bisque;
+    margin-top: 48px;
+    margin-left: 500px;
+}
