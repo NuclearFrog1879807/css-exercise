@@ -25,3 +25,22 @@
     margin-top: 48px;
     margin-left: 500px;
 }
+
+.exercise-two {
+    margin-top: 20px;
+}
+
+.exercise-two .card {
+    background-color: dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+.exercise-two .card-three {
+    text-align: center;
+}
