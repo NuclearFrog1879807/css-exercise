@@ -1,0 +1,17 @@
+.big-blue-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+    border: 4px solid blue;
+    height: 300px;
+    width: 400px;
+}
+
+.small-red-box {
+    background-color: lightcoral;
+    border: 8px solid brown;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
