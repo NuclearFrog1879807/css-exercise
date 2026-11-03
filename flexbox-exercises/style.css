@@ -51,10 +51,26 @@
 .header-two, .header-two .links, .header-two .left, .header-two .right {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 .header-two {
-    align-items: center;
     justify-content: space-between;
     color: purple;
+    background-color: white;
+    margin: -7px;
+    padding: 0px 10px;
+}
+
+.header-two .logo {
+    font-size: 40px;
+    margin: 10px;
+    font-weight: 1000;
+    font-style: italic;
+}
+
+.header-two .notification, .header-two .profile {
+    background-color: purple;
+    color: white;
+    padding: 15px;
 }
