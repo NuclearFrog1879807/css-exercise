@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .big-blue-box {
     display: flex;
     justify-content: center;
@@ -100,4 +105,59 @@
 
 .plant-container img {
     height: 100px;
+}
+
+.warning-box, .warning-box .left, .warning-box .right, .warning-box .header, .warning-box .buttons {
+    display: flex;
+}
+
+.warning-box {
+    padding: 20px;
+    gap: 20px;
+}
+
+.warning-box .left, .warning-box .right {
+    flex-direction: column;
+}
+
+.warning-box .left {
+    width: 200px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.warning-box .right, .warning-box .header, .warning-box .buttons {
+    gap: 20px;
+}
+
+.warning-box .header {
+    align-items: center;
+}
+
+.warning-box .exit {
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+.warning-box .buttons button {
+    padding: 10px;
+}
+
+.warning-box .continue {
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.warning-box .cancel {
+    background-color: white;
+    color: blue;
+    border: 1px solid black;
+}
+
+.warning-box .left p {
+    padding: 20px;
+    background-color: lightblue;
+    color: blue;
 }
