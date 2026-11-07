@@ -74,3 +74,30 @@
     color: white;
     padding: 15px;
 }
+
+.plant-info, .plant-container {
+    display: flex;
+}
+
+.plant-info {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    font-family: Courier, monospace;
+}
+
+.plant-container {
+    align-self: stretch;
+    justify-content: center;
+    gap: 52px;
+}
+
+.plant {
+    width: 200px;
+    text-align: center;
+}
+
+.plant-container img {
+    height: 100px;
+}
