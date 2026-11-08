@@ -181,3 +181,63 @@
     background-color: lightblue;
     border-radius: 25px;
 }
+
+.odin-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-family: Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #888;
+}
+
+.odin-home .top, .odin-home .bottom, .odin-home .middle {
+    width: 100%;
+    display: flex;
+}
+
+.odin-home .top, .odin-home .bottom {
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.odin-home .bottom {
+    background-color: #eee;
+}
+
+.odin-home .side {
+    display: flex;
+    height: 20px;
+}
+
+.odin-home .middle {
+    justify-content: center;
+    align-items: center;
+}
+
+.odin-home .center {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+
+.odin-home img {
+    width: 400px;
+}
+
+.odin-home .search {
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 10px 0 20px;
+    border-radius: 16px;
+}
+
+.odin-home button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
