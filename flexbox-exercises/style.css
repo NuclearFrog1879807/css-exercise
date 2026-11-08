@@ -241,3 +241,58 @@
     border: none;
     border-radius: 10px;
 }
+
+.full-layout, .full-layout .middle, .full-layout .main, .full-layout .top, .full-layout .bottom {
+    display: flex;
+}
+
+.full-layout {
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.full-layout .middle {
+    height: 100%;
+}
+
+.full-layout .side {
+    width: 400px;
+    color: white;
+    background-color: dodgerblue;
+    padding: 16px;
+}
+
+.full-layout .main {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 40px;
+    gap: 32px;
+}
+
+.full-layout .main p {
+    width: 200px;
+    height: 160px;
+    background-color: white;
+}
+
+.full-layout .top, .full-layout .bottom {
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+
+.full-layout .top {
+    font-size: 32;
+    box-sizing: border-box;
+    padding-left: 16px;
+    color: white;
+    background-color: purple;
+}
+
+.full-layout .bottom {
+    justify-content: center;
+    color: purple;
+    background-color: #eee;
+}
